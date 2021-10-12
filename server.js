@@ -1,9 +1,15 @@
-// require express
+const express = require('express');
+const app = express();
 
-// set app variable to express()
+let PORT = process.env.PORT || 3001;
 
-// set PORT number
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.static('public'));
 
-// require routes
+require('./routes/APIRoutes')(app);
+require('./routes/HTMLRoutes')(app);
 
-// listen
+app.listen(PORT, function () {
+    console.log('App listening on PORT ' + PORT);
+});
