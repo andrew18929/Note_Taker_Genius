@@ -4,16 +4,16 @@
 Note Taker Genius is an application that allows a user to store, retrieve, and delete notes that they create. The application was built with HTML, CSS, JS, and Express.js.
 
 ## Table of Contents
--[Screenshot](#screenshot)
--[Installation](#installation)
--[Usage](#usage)
--[Issues](#issues)
--[Contributes](#contributes)
--[Deployed Link](#deployed_link)
--[Questions](#questions)
--[Repository](#repository)
--[Email](#email)
--[License](#license)
+- [Screenshot](#screenshot)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Issues](#issues)
+- [Contributes](#contributes)
+- [Deployed Link](#deployed_link)
+- [Questions](#questions)
+- [Repository](#repository)
+- [Email](#email)
+- [License](#license)
 
 ## Screenshot
 ![image](https://user-images.githubusercontent.com/87145391/137209702-c7dd9fcf-4b07-47cf-a24e-a7860dfcc065.png)
