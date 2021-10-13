@@ -7,13 +7,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
 
-//require('./routes/HTMLRoutes')(app);
-const htmlRoutes = require('./routes/htmlRoutes');
-app.use('/', htmlRoutes);
 
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../develop/public/index.html'));
-});
+const htmlRoutes = require('./HTMLRoutes.js');
+app.use('/', htmlRoutes);
 
 app.listen(PORT, function () {
     console.log('App listening on PORT ' + PORT);
